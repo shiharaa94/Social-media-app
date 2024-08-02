@@ -1,0 +1,133 @@
+.profile-icon {
+    font-size: 32px;
+}
+
+.navbar .bi {
+    font-size: 22px;
+}
+
+.navbar {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.body {
+    background-color: #26282B;
+    min-width: 800px;
+}
+
+.post-area {
+    margin-bottom: 10px;
+}
+
+.post-header-profile-image {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.post-header-username {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.post-header-date {
+    font-size: 12px;
+    color: rgb(155, 149, 149);
+}
+
+.post-area .bi {
+    font-size: 24px;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.card {
+    color: white;
+}
+
+.fixed-div {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 1000;
+    /* Ensure fixed divs are on top */
+}
+
+.left-div {
+    left: 5px;
+    top: 100px;
+}
+
+.right-div {
+    right: 5px;
+    top: 100px;
+}
+
+.center-div {
+    margin-left: 27%;
+    margin-right: 27%;
+    margin-top: 100px;
+}
+
+@media (max-width: 767.98px) {
+    /* Bootstrap breakpoint for small screens */
+    .left-div,
+    .right-div {
+        display: none;
+    }
+    .center-div {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+.text-white {
+    color: white;
+}
+
+.sidebar-button {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    color: white;
+    text-align: left;
+}
+
+.sidebar-icons {
+    margin-right: 5px;
+    width: 50px;
+}
+
+.like-btn {
+    width: 30px;
+}
+
+.profile-container {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: #3C3E41;
+    color: white;
+}
+
+#loader {
+    text-align: center;
+    margin: 20px 0;
+}
